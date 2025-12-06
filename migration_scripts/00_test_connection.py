@@ -119,10 +119,10 @@ def preview_migration(df):
         print(f"  Email (generated): {email}")
         print(f"  First Name: {first_name}")
         print(f"  Surname: {surname}")
-        print(f"  Bio: {tagline[:50]}..." if pd.notna(tagline) and len(str(tagline)) > 50 else f"  Bio: {tagline}")
-        print(f"  Roles: {', '.join(roles[:3])}..." if len(roles) > 3 else f"  Roles: {', '.join(roles)}")
+        print(f"  ⭐ Bio (from Tagline): {tagline[:60]}..." if pd.notna(tagline) and len(str(tagline)) > 60 else f"  ⭐ Bio (from Tagline): {tagline}")
+        print(f"  ⭐ Roles (from Categories): {', '.join(roles[:3])}..." if len(roles) > 3 else f"  ⭐ Roles (from Categories): {', '.join(roles)}")
         print(f"  Profile Photo: {'✓' if pd.notna(logo) else '✗'}")
-        print(f"  Link: {'✓' if pd.notna(url) else '✗'}")
+        print(f"  ⭐ Link: {'✓' if pd.notna(url) else '✗'}")
 
 
 def check_existing_users(supabase):
