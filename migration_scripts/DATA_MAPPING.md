@@ -273,11 +273,13 @@ links: ["https://linktr.ee/tinageorge"]
 After running `02_generate_magic_links.py`, you'll get:
 
 ```csv
-user_id,email,first_name,surname,full_name,bio,magic_link,expiry_date,generated_at
-550e8400-...,tinageorge_1@heypro.migration,Tina,George,Tina George,"Producer. Production Manager...",https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...,2025-01-26,2025-01-19T14:35:25
+email,magic_link
+heyprodata@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...
+raaj.rao.01@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...
+iamtinageorge@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...
 ```
 
-**Note:** The CSV includes the bio field so you can use it in email templates!
+**Note:** The CSV is simplified to include only email and magic link for easy distribution!
 
 ---
 
