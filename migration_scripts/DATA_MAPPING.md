@@ -196,7 +196,7 @@ Tagline: "Producer. Production Manager. Creative problem-solver. Tech & AI Enthu
 Categories: "Producer, Producer | Creative, Production Manager, Creative Director, Fashion Show Director"
 Logo: "https://cdn.sheetany.com/files/RxBjZCbn5u.jpg"
 URL: "https://linktr.ee/tinageorge"
-Featured: "heyprodata@gmail.com"
+Email: "heyprodata@gmail.com"
 ```
 
 ### Result in Supabase
