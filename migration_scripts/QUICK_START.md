@@ -13,7 +13,7 @@ ls -lah
 # You should see:
 # - 01_migrate_users.py
 # - 02_generate_magic_links.py
-# - HeyProData Member Info.xlsx
+# - data spreadsheet.xlsx
 # - README.md
 ```
 
