@@ -285,4 +285,4 @@ iamtinageorge@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?
 
 **Last Updated:** January 2025
 **Status:** ✅ All fields mapped and confirmed
-**Important Fields:** ⭐ Bio (Tagline), ⭐ Roles (Categories), ⭐ Links (URL), ⭐ Emails (Featured) - ALL INCLUDED
+**Important Fields:** ⭐ Bio (Tagline), ⭐ Roles (Categories), ⭐ Links (URL), ⭐ Emails (Email column) - ALL INCLUDED
