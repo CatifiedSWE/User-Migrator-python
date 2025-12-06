@@ -271,9 +271,9 @@ Best regards,
 ### migration_log_YYYYMMDD_HHMMSS.csv
 ```csv
 index,name,email,status,user_id,error
-1,Tina George,tinageorge_1@heypro.migration,success,550e8400-...,
-2,Rajj M Rao,rajjmrao_2@heypro.migration,success,661f9511-...,
-3,Gen AI,genai_3@heypro.migration,failed,,Auth creation failed: email already exists
+1,Tina George,heyprodata@gmail.com,success,550e8400-...,
+2,Rajj M Rao,raaj.rao.01@gmail.com,success,661f9511-...,
+3,Gen AI,iamtinageorge@gmail.com,failed,,Auth creation failed: email already exists
 ```
 
 ### magic_links_YYYYMMDD_HHMMSS.csv
