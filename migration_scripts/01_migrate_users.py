@@ -249,7 +249,11 @@ class UserMigration:
         # Read Excel file
         print(f"\n→ Reading Excel file: {EXCEL_FILE}")
         try:
-            df = pd.read_excel(EXCEL_FILE, sheet_name='Content')
+            # Try 'Content' sheet first, fall back to first sheet if not found
+            try:
+                df = pd.read_excel(EXCEL_FILE, sheet_name='Content')
+            except:
+                df = pd.read_excel(EXCEL_FILE, sheet_name=0)
             print(f"  ✓ Found {len(df)} users to migrate")
         except Exception as e:
             print(f"  ✗ Failed to read Excel file: {e}")
