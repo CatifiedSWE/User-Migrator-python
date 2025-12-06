@@ -75,9 +75,9 @@ Supabase Table: user_links
 ✅ CONFIRMED: Links are fully migrated
 ```
 
-### 6. ⭐ Email (from Featured column) - UPDATED
+### 6. ⭐ Email (Real email addresses) - UPDATED
 ```
-Excel Column: "Featured"
+Excel Column: "Email"
 Example: "heyprodata@gmail.com"
 
 ↓ Maps directly to ↓
@@ -85,9 +85,9 @@ Example: "heyprodata@gmail.com"
 Supabase Table: auth.users
 └─ email: "heyprodata@gmail.com"
 
-✅ CONFIRMED: Real emails from Featured column are used
+✅ CONFIRMED: Real emails from Email column are used
 
-Note: If Featured column is empty, a fallback email will be generated:
+Note: If Email column is empty, a fallback email will be generated:
       Format: "{sanitized_name}_{index}@heypro.migration"
 ```
 
