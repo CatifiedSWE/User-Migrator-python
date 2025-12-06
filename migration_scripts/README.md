@@ -35,8 +35,8 @@ python 01_migrate_users.py
 ```
 
 **What it does:**
-1. Reads users from Excel file (Sheet: Content)
-2. Creates auth.users entries with real emails from Featured column
+1. Reads users from Excel file
+2. Creates auth.users entries with real emails from Email column
 3. Creates user_profiles with:
    - Name (split into first_name and surname)
    - Bio (from Tagline)
