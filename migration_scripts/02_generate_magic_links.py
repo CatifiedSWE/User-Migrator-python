@@ -173,13 +173,8 @@ class MagicLinkGenerator:
             
             print(f"\n✓ Magic links exported to: {output_file}")
             print(f"\nCSV contains:")
-            print(f"  - User ID")
             print(f"  - Email")
-            print(f"  - Full Name")
-            print(f"  - Bio")
-            print(f"  - Magic Link (7 days expiry)")
-            print(f"  - Expiry Date")
-            print(f"  - Generated At")
+            print(f"  - Magic Link ({MAGIC_LINK_EXPIRY_DAYS} days expiry)")
             
             print("\n✓ Process complete!")
             print("\nNext steps:")
