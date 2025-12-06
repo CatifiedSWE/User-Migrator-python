@@ -17,7 +17,7 @@ from supabase import create_client
 # Supabase Configuration
 SUPABASE_URL = "https://kvidydsfnnrathhpuxye.supabase.co"
 SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt2aWR5ZHNmbm5yYXRoaHB1eHllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MzYxMjc1OCwiZXhwIjoyMDc5MTg4NzU4fQ.oDbAaN2hrEQni0VW8wsKiRqZDbqlnS_Lj-fJ4OsIefo"
-EXCEL_FILE = "HeyProData Member Info.xlsx"
+EXCEL_FILE = "HeyProData_Member_Info.xlsx"
 
 
 def test_connection():
