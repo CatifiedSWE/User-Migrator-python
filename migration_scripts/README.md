@@ -11,13 +11,13 @@ pip install supabase pandas openpyxl
 
 ### 2. Prepare Data
 - Place `data spreadsheet.xlsx` in the same directory as the scripts
-- Ensure the Excel file has a sheet named `Content` with columns:
+- Ensure the Excel file has columns:
   - Name
   - URL (optional)
   - Tagline (becomes Bio)
   - Categories (becomes Roles)
   - Logo (becomes Profile Photo)
-  - Featured (real email addresses)
+  - Email (real email addresses)
 
 ### 3. Configure Supabase
 The scripts are pre-configured with your Supabase credentials:
