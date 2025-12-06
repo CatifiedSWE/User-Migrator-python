@@ -257,6 +257,7 @@ GROUP BY up.user_id, up.first_name, up.surname, up.bio, up.profile_photo_url;
 
 ### Expected Result
 ```
+email: heyprodata@gmail.com
 first_name: Tina
 surname: George
 bio: "Producer. Production Manager. Creative problem-solver. Tech & AI Enthusiast."
