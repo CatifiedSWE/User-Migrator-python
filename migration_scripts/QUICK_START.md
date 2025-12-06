@@ -119,7 +119,7 @@ EOF
 | Logo | → | profile_photo_url (user_profiles) |
 | Categories | → | role_name (user_roles, multiple rows) |
 | URL | → | url (user_links) |
-| (generated) | → | email (auth.users) |
+| Featured | → | email (auth.users - REAL EMAILS) |
 
 ## 🔧 Troubleshooting
 
