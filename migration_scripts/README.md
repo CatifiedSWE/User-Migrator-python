@@ -36,7 +36,7 @@ python 01_migrate_users.py
 
 **What it does:**
 1. Reads users from Excel file (Sheet: Content)
-2. Creates auth.users entries with generated emails
+2. Creates auth.users entries with real emails from Featured column
 3. Creates user_profiles with:
    - Name (split into first_name and surname)
    - Bio (from Tagline)
@@ -49,8 +49,9 @@ python 01_migrate_users.py
 - Console log with progress
 - `migration_log_YYYYMMDD_HHMMSS.csv` - detailed migration report
 
-**Email Format:**
-Since the Excel file doesn't contain emails, the script generates them:
+**Email Handling:**
+The script uses real emails from the "Featured" column in the Excel file.
+If an email is missing, it will generate one as fallback:
 - Format: `{sanitized_name}_{index}@heypro.migration`
 - Example: `tinageorge_1@heypro.migration`
 
