@@ -278,8 +278,9 @@ index,name,email,status,user_id,error
 
 ### magic_links_YYYYMMDD_HHMMSS.csv
 ```csv
-user_id,email,first_name,surname,full_name,bio,magic_link,expiry_date,generated_at
-550e8400-...,tinageorge_1@heypro.migration,Tina,George,Tina George,Producer. Production Manager...,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...,2025-01-26,2025-01-19T14:35:25
+email,magic_link
+heyprodata@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...
+raaj.rao.01@gmail.com,https://kvidydsfnnrathhpuxye.supabase.co/auth/v1/verify?token=...
 ```
 
 ## 🎯 Success Indicators
