@@ -230,7 +230,7 @@ Email: "heyprodata@gmail.com"
 3. ✅ **Links (URL)** - Saved in `user_links` table
 4. ✅ **Name** - Split into first_name and surname
 5. ✅ **Logo** - Saved as profile_photo_url
-6. ✅ **Email (Featured)** - Real email addresses from Featured column
+6. ✅ **Email** - Real email addresses from Email column
 
 **All important fields are included in the migration!** 🎉
 
