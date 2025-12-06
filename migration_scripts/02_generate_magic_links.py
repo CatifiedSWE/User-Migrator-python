@@ -108,17 +108,10 @@ class MagicLinkGenerator:
         
         print("  ✓ Magic link generated")
         
-        # Store result
+        # Store result (simplified: only email and magic_link)
         self.magic_links.append({
-            "user_id": user_id,
             "email": email,
-            "first_name": first_name,
-            "surname": surname,
-            "full_name": full_name,
-            "bio": user.get('bio', ''),
-            "magic_link": magic_link,
-            "expiry_date": (datetime.now() + timedelta(days=MAGIC_LINK_EXPIRY_DAYS)).strftime('%Y-%m-%d'),
-            "generated_at": datetime.now().isoformat()
+            "magic_link": magic_link
         })
         
         self.success_count += 1
