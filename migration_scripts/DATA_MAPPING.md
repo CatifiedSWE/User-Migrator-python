@@ -202,7 +202,7 @@ Featured: "heyprodata@gmail.com"
 ### Result in Supabase
 ```
 ✅ auth.users
-   └─ email: "tinageorge_1@heypro.migration"
+   └─ email: "heyprodata@gmail.com"
    
 ✅ user_profiles
    ├─ first_name: "Tina"
