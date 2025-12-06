@@ -87,7 +87,7 @@ python 02_generate_magic_links.py
 | Categories | user_roles | role_name | Split by comma, multiple roles |
 | Logo | user_profiles | profile_photo_url | Direct URL |
 | URL | user_links | url | Saved as "Profile Link" |
-| Featured | auth.users | email | Real email addresses |
+| Email | auth.users | email | Real email addresses |
 
 ## 🔐 Security Notes
 
