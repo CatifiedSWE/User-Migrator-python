@@ -108,7 +108,7 @@ HeyProData Excel
 │
 ├─ ⭐ URL ──────────────────► user_links (url) ✅ INCLUDED
 │
-└─ ⭐ Featured ─────────────► auth.users (email) ✅ REAL EMAILS
+└─ ⭐ Email ────────────────► auth.users (email) ✅ REAL EMAILS
 ```
 
 ---
