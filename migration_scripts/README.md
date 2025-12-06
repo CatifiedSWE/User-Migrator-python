@@ -10,13 +10,14 @@ pip install supabase pandas openpyxl
 ```
 
 ### 2. Prepare Data
-- Place `HeyProData Member Info.xlsx` in the same directory as the scripts
+- Place `data spreadsheet.xlsx` in the same directory as the scripts
 - Ensure the Excel file has a sheet named `Content` with columns:
   - Name
   - URL (optional)
   - Tagline (becomes Bio)
   - Categories (becomes Roles)
   - Logo (becomes Profile Photo)
+  - Featured (real email addresses)
 
 ### 3. Configure Supabase
 The scripts are pre-configured with your Supabase credentials:
