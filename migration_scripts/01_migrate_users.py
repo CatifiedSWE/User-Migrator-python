@@ -156,11 +156,11 @@ class UserMigration:
         tagline = row.get('Tagline', '')
         categories = row.get('Categories', '')
         logo = row.get('Logo', '')
-        featured_email = row.get('Featured', '')
+        real_email = row.get('Email', '')  # Using Email column (not Featured)
         
-        # Use real email from Featured column, or generate if not available
-        if pd.notna(featured_email) and featured_email and str(featured_email).strip():
-            email = str(featured_email).strip()
+        # Use real email from Email column, or generate if not available
+        if pd.notna(real_email) and real_email and str(real_email).strip():
+            email = str(real_email).strip()
         else:
             email = self.generate_email(name, index)
         
