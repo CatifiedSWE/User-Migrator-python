@@ -67,19 +67,12 @@ python 02_generate_magic_links.py
 1. Fetches all users from Supabase
 2. Generates magic links using Supabase Admin API
 3. Sets 7-day expiration
-4. Exports CSV with user info + magic links
+4. Exports simplified CSV with magic links
 
 **Output:**
 - `magic_links_YYYYMMDD_HHMMSS.csv` containing:
-  - user_id
   - email
-  - first_name
-  - surname
-  - full_name
-  - bio
   - magic_link (clickable authentication link)
-  - expiry_date
-  - generated_at
 
 **⚠️ IMPORTANT:** Before running this script:
 1. Update `REDIRECT_URL` in the script to your actual domain
