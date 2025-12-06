@@ -50,7 +50,7 @@ python 01_migrate_users.py
 - `migration_log_YYYYMMDD_HHMMSS.csv` - detailed migration report
 
 **Email Handling:**
-The script uses real emails from the "Featured" column in the Excel file.
+The script uses real emails from the "Email" column in the Excel file.
 If an email is missing, it will generate one as fallback:
 - Format: `{sanitized_name}_{index}@heypro.migration`
 - Example: `tinageorge_1@heypro.migration`
