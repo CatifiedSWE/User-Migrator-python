@@ -156,9 +156,13 @@ class UserMigration:
         tagline = row.get('Tagline', '')
         categories = row.get('Categories', '')
         logo = row.get('Logo', '')
+        featured_email = row.get('Featured', '')
         
-        # Generate email (we don't have emails in the CSV)
-        email = self.generate_email(name, index)
+        # Use real email from Featured column, or generate if not available
+        if pd.notna(featured_email) and featured_email and str(featured_email).strip():
+            email = str(featured_email).strip()
+        else:
+            email = self.generate_email(name, index)
         
         # Parse name
         first_name, surname = self.sanitize_name(name)
